@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(neko.jpg);
+}
+
+.card {
+    width: 20rem;
+    height: 15rem;
+    margin: 5rem;
+}
+
+.card > img {
+    border-radius: 2rem;
+    width: 20rem;
+    height: 15rem;
+}
+
+button {
+    font-family: 'Caveat', cursive;
+    width: 9rem;
+    font-size: 2rem;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darksalmon;
+    width: 10rem;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 5rem;
+}
